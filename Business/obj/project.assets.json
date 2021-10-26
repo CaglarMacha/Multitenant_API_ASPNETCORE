@@ -1561,6 +1561,20 @@
         "runtime": {
           "bin/placeholder/Core.dll": {}
         }
+      },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
+        }
       }
     }
   },
@@ -5863,11 +5877,17 @@
       "type": "project",
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Core >= 1.0.0"
+      "Core >= 1.0.0",
+      "Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5899,6 +5919,9 @@
           "projectReferences": {
             "C:\\Users\\cagla\\source\\repos\\Multitenant_API_ASPNETCORE\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\cagla\\source\\repos\\Multitenant_API_ASPNETCORE\\Core\\Core.csproj"
+            },
+            "C:\\Users\\cagla\\source\\repos\\Multitenant_API_ASPNETCORE\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\cagla\\source\\repos\\Multitenant_API_ASPNETCORE\\Data\\Data.csproj"
             }
           }
         }
