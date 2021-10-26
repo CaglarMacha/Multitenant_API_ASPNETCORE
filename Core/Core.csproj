@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Contracts\Concrete\" />
+    <Folder Include="Entities\Concrete\" />
+  </ItemGroup>
+
 </Project>
