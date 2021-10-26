@@ -37,19 +37,6 @@ namespace Business.Concrete
 
 
 
-        public Task<Product_Tr> CreateAsync(string name, string description, int rate)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IReadOnlyList<Product_Tr>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Product_Tr> GetByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

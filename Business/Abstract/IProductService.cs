@@ -8,8 +8,8 @@ namespace Business.Abstract
 {
     public interface IProductService<T> where T:class
     {
-        Task<T> CreateAsync(string name, string description, int rate);
-        Task<T> GetByIdAsync(int id);
+        Task<T> CreateAsync(string dc_Zaman, string dc_Kategori, string dc_Olay);
+        Task<T> GetByIdAsync(int ID);
         Task<IReadOnlyList<T>> GetAllAsync();
     }
 }

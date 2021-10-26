@@ -20,7 +20,7 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-        public Task<Product_It> GetByIdAsync(int id)
+        public Task<Product_It> GetByIdAsync(int ID)
         {
             throw new NotImplementedException();
         }
