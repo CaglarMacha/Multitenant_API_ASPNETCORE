@@ -19,9 +19,9 @@ namespace Business.Concrete
             _context = context;
         }
 
-        public async Task<Product_Tr> CreateAsync(string dc_Zaman, string dc_Kategori, string dc_Olay)
+        public async Task<Product_Tr> CreateAsync(string Dc_Zaman, string Dc_Kategori, string Dc_Olay)
         {
-            var product = new Product_Tr(dc_Zaman, dc_Kategori, dc_Olay);
+            var product = new Product_Tr(Dc_Zaman, Dc_Kategori, Dc_Olay);
             _context.Product_Trs.Add(product);
             await _context.SaveChangesAsync();
             return product;

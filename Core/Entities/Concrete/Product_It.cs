@@ -10,11 +10,11 @@ namespace Core.Entities.Concrete
 {
     public class Product_It : BaseEntity, IMustHaveTenant
     {
-        public Product_It(string dc_Orario, string dc_Categoria, string dc_Evento)
+        public Product_It(string Dc_Zaman, string Dc_Kategori, string Dc_Olay)
         {
-            dc_Orario = dc_Orario;
-            dc_Categoria = dc_Categoria;
-            dc_Evento = dc_Evento;
+            dc_Orario = Dc_Zaman;
+            dc_Categoria = Dc_Kategori;
+            dc_Evento = Dc_Olay;
         }
         protected Product_It()
         {

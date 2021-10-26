@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Core.Entities.Concrete;
+using Data.Context.EFCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +12,14 @@ namespace Business.Concrete
 {
     public class Product_ItService : IProductService<Product_It>
     {
-        public Task<Product_It> CreateAsync(string name, string description, int rate)
+        private readonly MultitenantDbContext _context;
+
+        public Product_ItService(MultitenantDbContext context)
+        {
+            _context = context;
+        }
+
+        public Task<Product_It> CreateAsync(string Dc_Zaman, string Dc_Kategori, string Dc_Olay)
         {
             throw new NotImplementedException();
         }
