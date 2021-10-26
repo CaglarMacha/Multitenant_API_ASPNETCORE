@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitenant_API_ASPNETCORE"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7A669A3B-EED5-447B-BD21-86155E481EA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{65C459CD-D69E-4832-A649-9D258D0EE5BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7A669A3B-EED5-447B-BD21-86155E481EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A669A3B-EED5-447B-BD21-86155E481EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A669A3B-EED5-447B-BD21-86155E481EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C459CD-D69E-4832-A649-9D258D0EE5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C459CD-D69E-4832-A649-9D258D0EE5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C459CD-D69E-4832-A649-9D258D0EE5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C459CD-D69E-4832-A649-9D258D0EE5BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
