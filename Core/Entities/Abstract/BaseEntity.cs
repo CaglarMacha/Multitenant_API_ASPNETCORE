@@ -8,6 +8,6 @@ namespace Core.Abstract
 {
     public abstract class BaseEntity
     {
-        public int Id { get; private set; }
+        public int ID { get; private set; }
     }
 }

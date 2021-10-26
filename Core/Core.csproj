@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Concrete\" />
-    <Folder Include="Entities\Concrete\" />
   </ItemGroup>
 
 </Project>
