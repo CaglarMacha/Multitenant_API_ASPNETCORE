@@ -14,7 +14,7 @@ namespace Core.Settings.Concrete
     {
         private readonly TenantSettings _tenantSettings;
         private HttpContext _httpContext;
-        private Tenant tenant;
+        private Tenant _currentTenant;
         public TenantService(IOptions<TenantSettings> tenantSettings,IHttpContextAccessor contextAccessor)
         {
             _tenantSettings = tenantSettings.Value;
@@ -28,27 +28,58 @@ namespace Core.Settings.Concrete
                 else
                 {
                     throw new Exception(ErrorMessages.Invalid_Tenant);
+                    if (_currentTenant == null) throw new Exception(ErrorMessages.Invalid_Tenant);
+                    if (string.IsNullOrEmpty(_currentTenant.ConnectionString))
+                    {
+                        SetDefaultConnectionStringToCurrentTenant();
+                    }
                 }
             }
+            
         }
-        private void SetTenant(string tenantId) { }
-
-
-
-
         public string GetConnectionString()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _currentTenant?.ConnectionString;
+            }
+            catch (Exception)
+            {
+                throw new NotImplementedException();
+            }          
         }
-
         public string GetDatabaseProvider()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _tenantSettings.Defaults?.DBProvider;
+            }
+            catch (Exception)
+            {
+                throw new NotImplementedException();
+            }
         }
 
         public Tenant GetTenant()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _currentTenant;
+            }
+            catch (Exception)
+            {
+                throw new NotImplementedException();
+            }                    
+        }
+
+        private void SetDefaultConnectionStringToCurrentTenant()
+        {
+            _currentTenant.ConnectionString = _tenantSettings.Defaults.ConnectionString;
+        }
+        private void SetTenant(string tenantId)
+        {
+            _currentTenant = _tenantSettings.Tenants.Where(k => k.TID == tenantId).FirstOrDefault();
+
         }
     }
 }
