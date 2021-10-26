@@ -1,0 +1,15 @@
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\bin\Debug\net5.0\Core.runtimeconfig.json
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\bin\Debug\net5.0\Core.dll
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.dll
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache

@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Concrete\" />
-    <Folder Include="Settings\Abstract\" />
   </ItemGroup>
 
   <ItemGroup>
