@@ -31,6 +31,7 @@ namespace Core.Settings.Concrete
                 }
             }
         }
+        private void SetTenant(string tenantId) { }
 
 
 
