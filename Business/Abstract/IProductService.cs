@@ -10,8 +10,8 @@ namespace Business.Abstract
 {
     public interface IProductService 
     {
-        Task<Product_Tr> CreateAsync(string dc_Zaman, string dc_Kategori, string dc_Olay);
-        Task<Product_Tr> GetByIdAsync(int ID);
-        Task<IReadOnlyList<Product_Tr>> GetAllAsync();
+        Task<Product> CreateAsync(string dc_Zaman, string dc_Kategori, string dc_Olay);
+        Task<Product> GetByIdAsync(int ID);
+        Task<IReadOnlyList<Product>> GetAllAsync();
     }
 }

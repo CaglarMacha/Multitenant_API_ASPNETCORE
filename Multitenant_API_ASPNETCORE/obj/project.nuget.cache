@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zr/I33INrkwpTSVGofaTBlIIaiOYA3G0l5kOS8G1JimdXjtLyZvQHMMeT1pe5jwCDHXRK1R9wqXGTkAiMCH+A==",
+  "dgSpecHash": "9mAnFgntRTNpqG+1xmZHC+OcNIzJR43x5wxhb4UmBAW7MPFkvYcP1ryQVJOFGnMIHl+p7jkn+wx0EMDCRcUIrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cagla\\source\\repos\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE.csproj",
+  "projectFilePath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE2\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagla\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cagla\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

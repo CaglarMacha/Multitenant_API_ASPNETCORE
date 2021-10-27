@@ -38,7 +38,7 @@ namespace Multitenant_API_ASPNETCORE
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Multitenant_API_ASPNETCORE", Version = "v1" });
             });
             services.AddTransient<ITenantService, TenantService>();
-            services.AddTransient<IProductService, Product_TrService>();
+            services.AddTransient<IProductService, ProductService>();
             services.Configure<TenantSettings>(config.GetSection(nameof(TenantSettings)));
             services.AddAndMigrateTenantDatabases(config);
         }
