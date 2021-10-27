@@ -14,5 +14,7 @@ namespace Core.Constant
     {
 
         public static string Invalid_Tenant = "Invalid Tenant!";
+        public static string Invalid_TenantId = "Invalid_TenantId!";
+        public static string Invalid_Request = "Invalid_Request!";
     }
 }

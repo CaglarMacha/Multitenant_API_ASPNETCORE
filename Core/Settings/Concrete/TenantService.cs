@@ -35,7 +35,7 @@ namespace Core.Settings.Concrete
                     }
                 }
             }
-            
+        
         }
         public string GetConnectionString()
         {
