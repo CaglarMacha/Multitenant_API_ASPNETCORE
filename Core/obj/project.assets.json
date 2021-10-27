@@ -5953,11 +5953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE2\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE2\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\cagla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE2\\Core\\obj\\",
+      "outputPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cagla\\AppData\\Roaming\\NuGet\\NuGet.Config",
