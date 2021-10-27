@@ -34,9 +34,18 @@ namespace Business.Concrete
         {
             return await _context.Products.FindAsync(ID);
         }
+        public async Task<Product> GetByTenantIdAsync(string TenantId)
+        {
+            string tenantId = TenantId;          
+            List<Product> products=  GetListAsync(tenantId);         
+            return await _context.Products.FindAsync(TenantId);
+        }
+        public  List<Product> GetListAsync(string TenantId)
+        {
+            return  _context.Products.Where(c => c.TenantId == TenantId).ToList();
+        }
 
 
 
-        
     }
 }

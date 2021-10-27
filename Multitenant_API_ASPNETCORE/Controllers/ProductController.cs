@@ -23,6 +23,14 @@ namespace Multitenant_API_ASPNETCORE.Controllers
             var productDetails = await _service.GetByIdAsync(id);
             return Ok(productDetails);
         }
+        [HttpGet]
+        [Route("tenant")]
+        public async Task<IActionResult> GetAsyncbyTID(string TenantId) 
+        {
+            var tenantsproduct = await _service.GetByTenantIdAsync(TenantId);
+            return Ok(tenantsproduct);
+        }
+        
         [HttpPost]
         public async Task<IActionResult> CreateAsync(CreateProductRequest request)
         {

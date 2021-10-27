@@ -13,5 +13,6 @@ namespace Business.Abstract
         Task<Product> CreateAsync(string dc_Zaman, string dc_Kategori, string dc_Olay);
         Task<Product> GetByIdAsync(int ID);
         Task<IReadOnlyList<Product>> GetAllAsync();
+        Task<Product> GetByTenantIdAsync(string TenantId);
     }
 }
