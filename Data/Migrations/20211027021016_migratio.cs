@@ -2,7 +2,7 @@
 
 namespace Data.Migrations
 {
-    public partial class migrations : Migration
+    public partial class migratio : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
