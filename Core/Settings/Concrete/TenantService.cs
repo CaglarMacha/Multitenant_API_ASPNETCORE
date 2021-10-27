@@ -27,7 +27,7 @@ namespace Core.Settings.Concrete
                 }
                 else
                 {
-                    throw new Exception(ErrorMessages.Invalid_Tenant);
+                    
                     if (_currentTenant == null) throw new Exception(ErrorMessages.Invalid_Tenant);
                     if (string.IsNullOrEmpty(_currentTenant.ConnectionString))
                     {
