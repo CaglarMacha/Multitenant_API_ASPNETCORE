@@ -10,8 +10,8 @@ namespace Multitenant_API_ASPNETCORE.Controllers
 {
     public class Product_TrController : Controller
     {
-        private readonly IProductService<Product_Tr> _service;
-        public Product_TrController(IProductService<Product_Tr> service)
+        private readonly IProductService _service;
+        public Product_TrController(IProductService service)
         {
             _service = service;
         }

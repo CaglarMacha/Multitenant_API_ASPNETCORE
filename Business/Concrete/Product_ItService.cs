@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    public class Product_ItService : IProductService<Product_It>
+    public class Product_ItService : IProductServiceIt
     {
         private readonly MultitenantDbContext _context;
 

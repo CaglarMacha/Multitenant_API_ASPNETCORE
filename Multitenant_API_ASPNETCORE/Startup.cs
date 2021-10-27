@@ -1,3 +1,8 @@
+using Business.Abstract;
+using Business.Concrete;
+using Core.Settings.Abstract;
+using Core.Settings.Concrete;
+using Data.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -18,20 +23,24 @@ namespace Multitenant_API_ASPNETCORE
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            config = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration config { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddHttpContextAccessor();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Multitenant_API_ASPNETCORE", Version = "v1" });
             });
+            services.AddTransient<ITenantService, TenantService>();
+            services.AddTransient<IProductService, Product_TrService>();
+            services.Configure<TenantSettings>(config.GetSection(nameof(TenantSettings)));
+            services.AddAndMigrateTenantDatabases(config);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
