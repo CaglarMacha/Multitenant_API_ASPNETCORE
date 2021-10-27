@@ -1,0 +1,7 @@
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.csproj.AssemblyReference.cache
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.AssemblyInfoInputs.cache
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.AssemblyInfo.cs
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.csproj.CoreCompileInputs.cache
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cagla\source\repos\Multitenant_API_ASPNETCORE\Multitenant_API_ASPNETCORE\obj\Debug\net5.0\Multitenant_API_ASPNETCORE.MvcApplicationPartsAssemblyInfo.cache
