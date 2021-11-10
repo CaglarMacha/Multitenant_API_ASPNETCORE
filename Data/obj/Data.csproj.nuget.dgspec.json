@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Data\\Data.csproj": {}
+    "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj": {
+    "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\cagla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\obj\\",
+        "outputPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cagla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Data\\Data.csproj": {
+    "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\cagla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Data\\obj\\",
+        "outputPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cagla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,8 +126,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Core\\Core.csproj"
+              "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Core\\Core.csproj"
               }
             }
           }

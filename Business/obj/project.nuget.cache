@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dD6KxLugmBmVVLRwVmN2RD07OvzkmhBjti8g0cBzhxYHK1XFFkMtFRu7CX3pETRpMV0ebmBCSUhtuiFDppk6Aw==",
+  "dgSpecHash": "6X3BMbLGbaXZnwtvp9uk2adNGHW9qGAKLAvqimQ5uOli0NVpGWYBTw9bT190MIa3HqwXMiE6tsqy0zBZn7bL3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagla\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\cagla\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

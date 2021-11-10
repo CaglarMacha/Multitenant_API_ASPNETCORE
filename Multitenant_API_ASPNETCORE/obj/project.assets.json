@@ -6200,11 +6200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE.csproj",
+      "projectUniqueName": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE.csproj",
       "projectName": "Multitenant_API_ASPNETCORE",
-      "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE.csproj",
+      "projectPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Multitenant_API_ASPNETCORE\\Multitenant_API_ASPNETCORE.csproj",
       "packagesPath": "C:\\Users\\cagla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Multitenant_API_ASPNETCORE\\obj\\",
+      "outputPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Multitenant_API_ASPNETCORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cagla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6221,8 +6221,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\cagla\\Source\\Repos\\Multitenant_API_ASPNETCORE3\\Business\\Business.csproj"
+            "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\cagla\\OneDrive\\Masaüstü\\Multitenant\\Business\\Business.csproj"
             }
           }
         }
